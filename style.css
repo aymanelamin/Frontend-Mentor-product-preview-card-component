@@ -1,0 +1,109 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing:border-box ;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:hsl(30, 38%, 92%);
+}  
+
+.image-container {
+  width: 20.5%;
+  
+}
+
+img {
+  width: 100%;
+  border-bottom-left-radius: .7rem;
+  border-top-left-radius: .7rem;
+}
+
+.text-container {
+  background-color:hsl(0, 0%, 100%);
+  width: 20.5%;
+  padding: 1.7rem;
+  border-bottom-right-radius: .7rem;
+  border-top-right-radius: .7rem;
+}
+
+.small-title {
+  letter-spacing: .3em;
+  text-transform:uppercase;
+  color:hsl(228, 12%, 48%);
+  font-size: .9rem;
+}
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2.2rem;
+  margin: .5em 0;
+  color: hsl(212, 21%, 14%);
+
+}
+
+.main_paragraph {
+  line-height: 1.7em;
+  color:hsl(228, 12%, 48%);
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.curent-price {
+  font-family: 'Fraunces', serif;
+  margin-top:1.2vw;
+  margin-bottom:1.2vw;
+  color:hsl(158, 36%, 37%);
+  font-size: 2.3rem;
+  margin-right: .5em;
+}
+
+.deleted-price {
+  color: hsl(228, 12%, 48%);
+  font-size: 1rem;
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+.button {
+  width: 100%;
+  border-radius: .5em;
+  background-color: hsl(158, 36%, 37%);
+  border-color: transparent;
+  color: hsl(0, 0%, 100%);
+}
+
+.button-value {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+svg {
+  margin: 1em;
+}
+
+.button:hover {
+  background-color: hsl(157, 41%, 16%);
+  cursor: pointer;
+}
+
